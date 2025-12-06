@@ -5,6 +5,7 @@ import Pagination from "@/app/ui/invoices/pagination";
 import InvoicesTable from "@/app/ui/invoices/table";
 import Search from "@/app/ui/search";
 import { InvoicesTableSkeleton } from "@/app/ui/skeletons";
+import { ErrorBoundary } from "next/dist/client/components/error-boundary";
 import { Suspense } from "react";
 
 export default async function Page(props: {
